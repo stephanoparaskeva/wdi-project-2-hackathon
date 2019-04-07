@@ -1,14 +1,17 @@
 
+.base-bar-container {
+  width: 20vw;
+}
 
 .base-bar {
-  padding-top: 20vh;
+  padding-top: 10vh;
   padding-bottom: 8vh;
   padding-left: 3.5vw;
   height: 100vh;
-    width: 20vw;
-    overflow-y: scroll;
-    position: fixed;
-    font-size: 30px;
+  width: 20vw;
+  overflow-y: scroll;
+  position: fixed;
+  font-size: 30px;
 }
 
 .base-bar-card {
@@ -16,11 +19,10 @@
 }
 
 .index-section, .show-section, .login-reg {
-  padding-left: 25vw;
+  padding-left: 22vw;
   padding-top: 5vh;
   padding-bottom: 8vh;
   height: 100vh;
-  overflow-y: scroll;
 }
 
 .navbar {

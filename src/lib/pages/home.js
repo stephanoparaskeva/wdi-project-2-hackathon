@@ -20,7 +20,7 @@ class Home extends React.Component {
   render() {
     return (
       <main className="section base-bar">
-        <div className="container">
+        <div className="container base-bar-container">
           <div className="columns is-mobile is-multiline">
             {this.baseArr.map(base =>
               <div key={base} className="is-one-quarter-desktop is-one-third-tablet is-half-mobile">
