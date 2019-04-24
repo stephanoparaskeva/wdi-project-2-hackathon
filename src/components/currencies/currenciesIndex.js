@@ -14,30 +14,9 @@ class CurrenciesIndex extends React.Component {
       filteredCurrencyKeys: []
     }
 
-    this.baseArr = ['MXN', 'AUD', 'HKD', 'RON', 'HRK', 'CHF', 'IDR', 'CAD', 'USD', 'ZAR', 'JPY', 'BRL', 'HUF', 'CZK',
-      'NOK', 'INR', 'PLN', 'ISK', 'PHP', 'SEK', 'ILS', 'GBP', 'SGD', 'CNY', 'TRY', 'MYR', 'RUB', 'NZD',
-      'KRW', 'THB', 'BGN', 'DKK', 'EUR']
 
-
-    this.pairArr = ['MXN', 'AUD', 'HKD', 'RON', 'HRK', 'CHF', 'IDR', 'CAD', 'USD', 'ZAR', 'JPY', 'BRL', 'HUF', 'CZK',
-      'NOK', 'INR', 'PLN', 'ISK', 'PHP', 'SEK', 'ILS', 'GBP', 'SGD', 'CNY', 'TRY', 'MYR', 'RUB', 'NZD',
-      'KRW', 'THB', 'BGN', 'DKK', 'EUR']
-
-    this.getCurrencies = this.getCurrencies.bind(this)
-    this.generateCurrencyPairs = this.generateCurrencyPairs.bind(this)
   }
 
-  generateCurrencyPairs(baseArr, pairArr) {
-    const newArr = []
-    baseArr.map(base => {
-      pairArr.forEach(pair => {
-        if (base !== pair) {
-          newArr.push(`${base+pair}`)
-        }
-      })
-    })
-    return newArr
-  }
 
   getCurrencies() {
     axios.get(`https://cors.io/?http://api.openrates.io/latest?base=${this.props.match.params.id}`)
