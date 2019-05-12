@@ -1,5 +1,5 @@
-# General Assembly WDI Project 3
-## Organise
+# General Assembly WDI Project 2
+## Pairer
 [Deployed project](https://financial-data-api.herokuapp.com/EUR)
 
 ![](https://media.giphy.com/media/fwz3apThjp7s11kotu/giphy.gif)
