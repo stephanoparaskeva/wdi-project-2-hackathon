@@ -1,4 +1,4 @@
-# General Assembly WDI Project 2
+# General Assembly WDI Project 2: Reactathon App
 ## Pairer
 [Deployed project](https://financial-data-api.herokuapp.com/EUR)
 
