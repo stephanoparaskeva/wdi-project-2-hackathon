@@ -5,14 +5,14 @@
 ![](https://media.giphy.com/media/fwz3apThjp7s11kotu/giphy.gif)
 ___
 ### Overview:
-A task management app similar to Trello that allows the user to create groups based on events, and tasks to-do. The user can make friends and allocate friends to the groups they own to create private parties.
+A fiat currency pair app. With over one thousand currency pairs. The user can select any two combinations and see the price of the pair as well as a graph of the last 30 days.
 ___
 
 ### Timeframe:
     48 hours
 ### The Brief:
 
-In teams of 3 we had to render an app that retrieves data from a public API in an interesting and engaging manner. We had just under 48 hours to achieve this goal, making it extremely time sensitive.
+In teams of 2 we had to render an app that retrieves data from a public API in an interesting and engaging manner. We had just under 48 hours to achieve this goal, making it extremely time sensitive.
 
 ### Technologies:
 
