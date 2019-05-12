@@ -2,7 +2,7 @@
 ## Pairer
 [Deployed project](https://financial-data-api.herokuapp.com/EUR)
 
-![](https://media.giphy.com/media/fwz3apThjp7s11kotu/giphy.gif)
+![](https://media.giphy.com/media/fUHVPoY76vIOyNAtUn/giphy.gif)
 ___
 ### Overview:
 A fiat currency pair app. With over one thousand currency pairs. The user can select any two combinations and see the price of the pair as well as a graph of the last 30 days.
@@ -10,9 +10,20 @@ ___
 
 ### Timeframe:
     48 hours
+
 ### The Brief:
 
-In teams of 2 we had to render an app that retrieves data from a public API in an interesting and engaging manner. We had just under 48 hours to achieve this goal, making it extremely time sensitive.
+* Build a React application that consumes a public API.
+
+* Have several components - At least one classical and one functional.
+
+* The app should include a router - with several "pages".
+
+* Have semantically clean HTML
+
+* Be deployed online and accessible to the public.
+
+* Work in pairs.
 
 ### Technologies:
 
