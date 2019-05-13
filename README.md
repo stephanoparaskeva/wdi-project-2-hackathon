@@ -131,3 +131,4 @@ A win for the app was the quantity of different currency pairs that I was able t
 *These were the features I wanted to be able to integrate given enough time, and so I returned to make a similar app that included these features [here](https://crypto-infinite.herokuapp.com/)*
 
 ### Key Learnings:
+This project was a great dive into first learning how to read the documentation of public API's, sifting through so many API docs in order to first decide what type of project we wanted, then going through financial API documentation to find the right financial data API's once we decided on our project. Then finally familiarising myself with the documentation of the API's we actually wanted to use; all meant that I got to really immerse myself into reading docs in order to understand how a specific API worked and how to make it work for my needs. Going forward this has taught me how to properly read documentation and use the many public API's that are available.
