@@ -91,14 +91,14 @@ The code above works as follows:
 5. This data is then set into state after a check is done, ready to be passed via props to the graph component.
 
 ### Process:
-This was a team based project where I worked with one other developer,[Ru Owyong](https://github.com/rulette). We worked together using the Teletype team coding tool. This tool allowed us to both code at the same time remotely on the same files. We discussed our tasks on the Slack messaging platform and troubleshooted together. When we were not working remotely, we'd pair code on my laptop. Each taking turns to code, where one person was the 'driver' who wrote the code and the other was the 'navigator' who helped solve problems and proof-read. This itself was a challenge as it required us to learn to communicate what we were doing, while we were doing it. Because of this, it helped me learn how to better explain my code and also how to help someone work through their own. Reading my teammates code and hearing their thought process was a great experience as it opened my mind to alternative approaches to problems.
+This was a team based project where I worked with one other developer, [Ru Owyong](https://github.com/rulette). We worked together using the Teletype team coding tool. This tool allowed us to both code at the same time remotely on the same files. We discussed our tasks on the Slack messaging platform and troubleshooted together. When we were not working remotely, we'd pair code on my laptop. Each taking turns to code, where one person was the 'driver' who wrote the code and the other was the 'navigator' who helped solve problems and proof-read. This itself was a challenge as it required us to learn to communicate what we were doing, while we were doing it. Because of this, it helped me learn how to better explain my code and also how to help someone work through their own. Reading my teammates code and hearing their thought process was a great experience as it opened my mind to alternative approaches to problems.
 
 ## Bugs:
 *Below is a list of some of the known issues*:
 
 ---
 
-**Problem**: There is an issue with CORS as public API's are being consumed from the front-end. This was worked around by using an online proxy by affixing 'https://cors.io/?' to the URL of the request. This however is a temprorary fix.
+**Problem**: There is an issue with CORS as public API's are being consumed from the front-end. This was worked around by using an online proxy by affixing 'cors.io' to the URL of the request. This however is a temprorary fix.
 
 **Solution**: As a long-term solution, a back-end could have been included where the request could be made from in order to prevent the CORS issue from arising.
 
@@ -128,6 +128,6 @@ A win for the app was the quantity of different currency pairs that I was able t
 
 * Options for the graphs to view more than 30 days of historical data
 
-**These were the features I wanted to be able to integrate given enough time, and so I returned to make a similar app that included these features [here](http://crypto-infinite.herokuapp.com/)**
+*These were the features I wanted to be able to integrate given enough time, and so I returned to make a similar app that included these features [here](https://crypto-infinite.herokuapp.com/)*
 
 ### Key Learnings:
