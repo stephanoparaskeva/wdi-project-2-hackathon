@@ -83,6 +83,43 @@ Using the Chart.js charting library I was able to render a graph of the currency
     }}
   }
 ```
- 
- 
- 
+The code above works as follows:
+1. A for loop occurs where each loop creates a date object of the current moment. Using the moment.js library.
+2. Then an Axios request is made to the external API (openrates).
+3. As the seperate axios requests are asynchronous, the historical data will come back unordered. To order the data; each date created in step 1 is attached to each rate. These dates will be seperated by mere milliseconds but they will nonetheless be different.
+4. The response array with the dates attached is then sorted by comparing date objects. The data is ordered in descending order.
+5. This data is then set into state after a check is done, ready to be passed via props to the graph component.
+
+### Process:
+This was a team based project where I worked with one other developer,[Ru Owyong](https://github.com/rulette). We worked together using the Teletype team coding tool. This tool allowed us to both code at the same time remotely on the same files. We discussed our tasks on the Slack messaging platform and troubleshooted together. When we were not working remotely, we'd pair code on my laptop. Each taking turns to code, where one person was the 'driver' who wrote the code and the other was the 'navigator' who helped solve problems and proof-read. This itself was a challenge as it required us to learn to communicate what we were doing, while we were doing it. Because of this, it helped me learn how to better explain my code and also how to help someone work through their own. Reading my teammates code and hearing their thought process was a great experience as it opened my mind to alternative approaches to problems.
+
+## Bugs:
+*Below is a list of some of the known issues*:
+
+---
+
+**Problem**:
+
+**Solution**:
+
+---
+
+**Problem**:
+
+**Solution**:
+
+---
+
+### Wins and Blockers:
+
+The biggest blocker for me was the
+
+A win for the app was the
+
+### Future Features:
+
+*Features we would like to add, include:*
+
+*
+
+### Key Learnings:
