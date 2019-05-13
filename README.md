@@ -98,28 +98,36 @@ This was a team based project where I worked with one other developer,[Ru Owyong
 
 ---
 
-**Problem**:
+**Problem**: There is an issue with CORS as public API's are being consumed from the front-end. This was worked around by using an online proxy by affixing 'https://cors.io/?' to the URL of the request. This however is a temprorary fix.
 
-**Solution**:
+**Solution**: As a long-term solution, a back-end could have been included where the request could be made from in order to prevent the CORS issue from arising.
 
 ---
 
-**Problem**:
+**Problem**: After clicking a currency pair, sometimes the graph and information does not show up. The console reports that 'Cannot read property '5. Exchange Rate' of undefined'. This is because there is a limit of 5 API calls per minute to the Alpha Vantage API.
 
-**Solution**:
+**Solution**: The best way to overcome this would have been to find an alternative API to use, one that allowed more requests.
 
 ---
 
 ### Wins and Blockers:
 
-The biggest blocker for me was the
+The biggest blocker for me was finding suitible API's to provide the financial data. This was because most financial data API's are paid services. Finding free API's for the platform and getting them to work together took longer than I would have wanted. Further to this, the data provided by these API's was difficult to use or limited in itself. It wasn't until after the hackathon where I found API's that'd be a lot more friendly to use.
 
-A win for the app was the
+A win for the app was the quantity of different currency pairs that I was able to make the app able to provide. The user has over 1000 currency pair combinations to pick from. Additionally, as this data is gathered in a similar way to how the graph data is gathered, it meant that a graph is available for every single currency pair.
 
 ### Future Features:
 
 *Features we would like to add, include:*
 
-*
+* The ability to buy and sell currencies, so the user can see what their investments would look like. 
+
+* Use of a better API so that there can be more requests.
+
+* Candle graphs for the currencies to show the high, low, open and close prices.
+
+* Options for the graphs to view more than 30 days of historical data
+
+**These were the features I wanted to be able to integrate given enough time, and so I returned to make a similar app that included these features [here](http://crypto-infinite.herokuapp.com/)**
 
 ### Key Learnings:
