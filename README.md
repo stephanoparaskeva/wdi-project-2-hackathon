@@ -35,6 +35,7 @@ ___
 * HTML5
 * CSS
 * SASS
+* Chart.js
 * npm
 * Bash
 * Slack
