@@ -8,8 +8,8 @@ ___
 A fiat currency pair app. With over one thousand currency pairs. The user can select any two combinations and see the price of the pair as well as a graph of the last 30 days.
 ___
 
-### Timeframe:
-    48 hours
+### Timeframe & Team:
+    48 hours, team of 2
 
 ### The Brief:
 
