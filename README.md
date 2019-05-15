@@ -107,7 +107,7 @@ This was a team based project where I worked with one other developer, [Ru Owyon
 
 ---
 
-**Problem**: After clicking a currency pair, the graph and information sometimes does not show up. The console reports 'Cannot read property '5. Exchange Rate' of undefined'. This is because there is a limit of 5 API calls per minute to the AlphaVantage API.
+**Problem**: After clicking a currency pair, the graph and information sometimes does not show up. The console reports "Cannot read property '5. Exchange Rate' of undefined". This is because there is a limit of 5 API calls per minute to the AlphaVantage API.
 
 **Solution**: The best way to overcome this would have been to find an alternative API to use, one that allowed more requests.
 
